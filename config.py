@@ -17,7 +17,7 @@ class ConfigLSK:
     config = [2, 2, 2, 2, 2, 2]
     head_dim = [8, 16, 32, 32, 16, 8]
     drop_path_rate = 0.0
-    N = 128  # small model {64=small, 96=medium, 128=large}
+    N = 128  # {64=small, 96=medium, 128=large}
     M = 320
     num_slices = 5
     max_support_slices = 5
