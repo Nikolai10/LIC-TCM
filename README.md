@@ -41,7 +41,7 @@ We did not apply advanced data pre-processing techniques that are commonly used 
 We release a single pre-trained model (&lambda;=0.0067) as proof of functional correctness: [download](https://drive.google.com/drive/folders/1DYJBRytpSzJZwAIUa-IuJzzoNUR9Rfhr?usp=sharing).
 
 Currently, we have only tested training/ inference using ```tf.config.experimental.enable_tensor_float_32_execution(False)```, 
-see [here](tf.config.experimental.enable_tensor_float_32_execution) for more information. To enable TensorFloat-32 on supported hardware, go to [lsk2023.py, l. 51](https://github.com/Nikolai10/LIC-TCM/blob/master/lsk2023.py#L51) and set ```tf.config.experimental.enable_tensor_float_32_execution(True)```.
+see [here](https://www.tensorflow.org/api_docs/python/tf/config/experimental/enable_tensor_float_32_execution) for more information. To enable TensorFloat-32 on supported hardware, go to [lsk2023.py, l. 51](https://github.com/Nikolai10/LIC-TCM/blob/master/lsk2023.py#L51) and set ```tf.config.experimental.enable_tensor_float_32_execution(True)```.
 
 ## Quality Assertions
 
