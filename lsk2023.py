@@ -48,7 +48,7 @@ import sys
 from absl import app
 from absl.flags import argparse_flags
 import tensorflow as tf
-# tf.config.experimental.enable_tensor_float_32_execution(False)
+tf.config.experimental.enable_tensor_float_32_execution(False)
 import tensorflow_compression as tfc
 import tensorflow_datasets as tfds
 import collections
